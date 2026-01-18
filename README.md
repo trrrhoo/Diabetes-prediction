@@ -2,10 +2,10 @@
 
 **Authors:** AMALAN KANNAN Théo, CHENENE Iliès, CLERE HAMELIN Maxime
 
-## 🎯 Goal
+## Goal
 **Predict the diabetes risk score** and **classify the diabetes stage** for a patient using statistical learning methods based on lifestyle, demographic, and medical variables.
 
-## 📂 Project Overview
+## Project Overview
 This project explores two complementary tasks based on the [Diabetes Health Indicators Dataset](https://www.kaggle.com/datasets/mohankrishnathalla/diabetes-health-indicators-dataset/data).
 
 ### 1. Regression — Predicting Diabetes Risk Score
@@ -23,7 +23,7 @@ A multi-class classification problem (5 classes: No Diabetes, Pre-Diabetes, Type
     * **Imbalance Handling:** Downsampling strategies and SMOTE (Synthetic Minority Over-sampling Technique).
     * **Evaluation:** Performance metrics beyond accuracy (Recall, Confusion Matrix) to minimize false negatives in a medical context.
 
-## 📊 Main Results
+## Main Results
 
 ### Regression
 * **Performance:** High $R^2$ score achieved.
@@ -35,7 +35,7 @@ A multi-class classification problem (5 classes: No Diabetes, Pre-Diabetes, Type
 * **Improvement:** After downsampling and tuning, we achieved a more balanced recall across stages.
 * **Impact:** Significantly improved detection of rare and clinically important categories.
 
-## 🛠️ Technologies Used
+## Technologies Used
 * **Python**
 * **Data Manipulation:** `pandas`, `numpy`
 * **Machine Learning:** `scikit-learn` (RandomForest, GradientBoosting, LinearRegression, PCA, etc.)
